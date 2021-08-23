@@ -8,7 +8,9 @@ import androidx.navigation.compose.rememberNavController
 import com.houzerd.pokedex.views.screens.Home
 import com.houzerd.pokedex.views.screens.PokemonDetail
 import com.houzerd.pokedex.views.screens.SplashScreen
+import kotlinx.coroutines.DelicateCoroutinesApi
 
+@DelicateCoroutinesApi
 @ExperimentalFoundationApi
 @Composable
 fun AppNavigation() {

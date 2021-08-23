@@ -26,12 +26,12 @@ fun Home(navController: NavController) {
 
         LazyVerticalGrid(
             cells = GridCells.Fixed(2),
-            contentPadding = PaddingValues(16.dp),
+            contentPadding = PaddingValues(horizontal = 8.dp)
         ) {
             items(20) {
                 PokemonCard(
                     name = "$it",
-                    navController = navController
+                    navController = navController,
                 )
             }
         }
